@@ -11,8 +11,8 @@ class TestCalculator(TestCase):
         self.assertEqual(self.calc.mysum(1, 2), 3)
 
     def test_min(self):
-        self.assertEqual(self.calculator.min(10, 2), 2)
-        self.assertEqual(self.calculator.min(-1, -5), -5)    
+        self.assertEqual(self.calc.min(10, 2), 2)
+        self.assertEqual(self.calc.min(-1, -5), -5)    
     
 if __name__ == '__main__':
     unittest.main()
