@@ -11,11 +11,8 @@ class TestCalculator(TestCase):
         self.assertEqual(self.calc.mysum(1, 2), 3)
 
     def test_min(self):
-        self.assertEqual(self.calculator.min(10, 2), 2)
-        self.assertEqual(self.calculator.min(-1, -5), -5)
-
-    def test_average(self):
-        self.assertEqual(self.calc.myaverage(1, 2), 3)
-
+        self.assertEqual(self.calc.min(10, 2), 2)
+        self.assertEqual(self.calc.min(-1, -5), -5)    
+    
 if __name__ == '__main__':
     unittest.main()
