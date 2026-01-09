@@ -1,1 +1,21 @@
-*.coverage, venv
+# Fichiers de couverture de code
+*.coverage
+.coverage.*
+htmlcov/ # Si coverage génère un rapport HTML
+
+# Environnement virtuel
+.venv/
+venv/  # Pour couvrir les deux cas si jamais vous en créez un sans le point
+
+# Fichiers compilés Python
+__pycache__/
+*.pyc
+
+# Dossiers de configuration IDE (ex: PyCharm)
+.idea/
+
+# Fichiers logs (si vous en générez)
+*.log
+
+# Fichiers spécifiques au système d'exploitation (macOS)
+.DS_Store
